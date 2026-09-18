@@ -1,0 +1,39 @@
+[
+  {
+    "customer_1": "C1001",
+    "customer_2": "C1044",
+    "score": 105,
+    "confidence": "HIGH",
+    "evidence": [
+      "Same email",
+      "Same phone",
+      "Similar name (81%)",
+      "Similar address (91%)",
+      "Same city"
+    ]
+  },
+  {
+    "customer_1": "C1001",
+    "customer_2": "C1088",
+    "score": 65,
+    "confidence": "MEDIUM",
+    "evidence": [
+      "Same phone",
+      "Similar name (97%)",
+      "Similar address (92%)",
+      "Same city"
+    ]
+  },
+  {
+    "customer_1": "C1044",
+    "customer_2": "C1088",
+    "score": 65,
+    "confidence": "MEDIUM",
+    "evidence": [
+      "Same phone",
+      "Similar name (85%)",
+      "Similar address (82%)",
+      "Same city"
+    ]
+  }
+]

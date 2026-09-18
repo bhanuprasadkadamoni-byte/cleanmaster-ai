@@ -1,0 +1,42 @@
+[
+  {
+    "customer_id": "C1001",
+    "name": "Sneha Srirampur",
+    "email": "sneha@gmail.com",
+    "phone": "9876543210",
+    "address": "12 Lake Road",
+    "city": "Hyderabad"
+  },
+  {
+    "customer_id": "C1044",
+    "name": "S. Srirampur",
+    "email": "sneha@gmail.com",
+    "phone": "9876543210",
+    "address": "12 Lake Rd",
+    "city": "Hyderabad"
+  },
+  {
+    "customer_id": "C1088",
+    "name": "Sneh Srirampur",
+    "email": "srirampur@gmail.com",
+    "phone": "9876543210",
+    "address": "14 Lake Road",
+    "city": "Hyderabad"
+  },
+  {
+    "customer_id": "C2001",
+    "name": "Rahul Kumar",
+    "email": "rahul1@example.com",
+    "phone": "9000000001",
+    "address": "10 MG Road",
+    "city": "Bengaluru"
+  },
+  {
+    "customer_id": "C2002",
+    "name": "Rahul Kumar",
+    "email": "rahul2@example.com",
+    "phone": "9000000002",
+    "address": "22 Park Street",
+    "city": "Hyderabad"
+  }
+]
