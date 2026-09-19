@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  border-bottom: 1px solid #252b45;
+  background: #10162b;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+header p {
+  margin: 6px 0 0;
+  color: #9ca7c7;
+}
+
+.status {
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: #17233d;
+  color: #75e6a5;
+}
+
+.status span {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: #42e58b;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+main {
+  width: 86%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h2 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #aeb7d0;
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: #6c63ff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #121a31;
+  border: 1px solid #293252;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  color: #cbd3ec;
+}
+
+.number {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #8994b5;
+}
+
+.results,
+.investigation {
+  margin-top: 30px;
+  padding: 25px;
+  background: #121a31;
+  border: 1px solid #293252;
+  border-radius: 15px;
+}
+
+.candidate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 12px;
+  background: #19223d;
+}
+
+.candidate h3 {
+  margin-top: 0;
+}
+
+.candidate p {
+  color: #aeb7d0;
+}
+
+.candidate button {
+  margin: 0;
+}
+
+.loading {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  background: #18223c;
+  border-radius: 12px;
+}
+
+.decision {
+  padding: 20px;
+  border-radius: 12px;
+  background: #172b25;
+}
+
+.reason,
+.recommendation {
+  margin-top: 15px;
+  padding: 20px;
+  background: #19223d;
+  border-radius: 12px;
+}
+
+.reason p,
+.recommendation p {
+  color: #c1c9df;
+  line-height: 1.6;
+}
+
+.investigator {
+  margin-top: 20px;
+  color: #8f9ab9;
+}
+
+@media (max-width: 700px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .candidate {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
